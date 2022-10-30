@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5515892A290F150E00C8DABA /* SolarBoostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55158929290F150E00C8DABA /* SolarBoostApp.swift */; };
-		5515892C290F150E00C8DABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515892B290F150E00C8DABA /* ContentView.swift */; };
-		5515892E290F151100C8DABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5515892D290F151100C8DABA /* Assets.xcassets */; };
-		55158931290F151100C8DABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55158930290F151100C8DABA /* Preview Assets.xcassets */; };
+		55158938290F155D00C8DABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55158937290F155D00C8DABA /* Assets.xcassets */; };
+		5515893F290F15BA00C8DABA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55158939290F15B900C8DABA /* MainView.swift */; };
+		55158940290F15BA00C8DABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515893A290F15B900C8DABA /* ContentView.swift */; };
+		55158941290F15BA00C8DABA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515893B290F15B900C8DABA /* MapView.swift */; };
+		55158942290F15BA00C8DABA /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515893C290F15B900C8DABA /* Month.swift */; };
+		55158943290F15BA00C8DABA /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515893D290F15B900C8DABA /* MapViewModel.swift */; };
+		55158944290F15BA00C8DABA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5515893E290F15B900C8DABA /* Place.swift */; };
+		55158947290F15E700C8DABA /* SolarBoostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55158945290F15E700C8DABA /* SolarBoostApp.swift */; };
+		55158948290F15E700C8DABA /* splash screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55158946290F15E700C8DABA /* splash screen.swift */; };
+		5515894A290F160500C8DABA /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55158949290F160500C8DABA /* WelcomeScreen.swift */; };
+		5515894C290F161000C8DABA /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 5515894B290F161000C8DABA /* Preview Content */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55158926290F150E00C8DABA /* SolarBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarBoost.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55158929290F150E00C8DABA /* SolarBoostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarBoostApp.swift; sourceTree = "<group>"; };
-		5515892B290F150E00C8DABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5515892D290F151100C8DABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55158930290F151100C8DABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55158937290F155D00C8DABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		55158939290F15B900C8DABA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5515893A290F15B900C8DABA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5515893B290F15B900C8DABA /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5515893C290F15B900C8DABA /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		5515893D290F15B900C8DABA /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		5515893E290F15B900C8DABA /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		55158945290F15E700C8DABA /* SolarBoostApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarBoostApp.swift; sourceTree = "<group>"; };
+		55158946290F15E700C8DABA /* splash screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "splash screen.swift"; sourceTree = "<group>"; };
+		55158949290F160500C8DABA /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		5515894B290F161000C8DABA /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +65,19 @@
 		55158928290F150E00C8DABA /* SolarBoost */ = {
 			isa = PBXGroup;
 			children = (
-				55158929290F150E00C8DABA /* SolarBoostApp.swift */,
-				5515892B290F150E00C8DABA /* ContentView.swift */,
-				5515892D290F151100C8DABA /* Assets.xcassets */,
-				5515892F290F151100C8DABA /* Preview Content */,
+				55158949290F160500C8DABA /* WelcomeScreen.swift */,
+				55158945290F15E700C8DABA /* SolarBoostApp.swift */,
+				55158946290F15E700C8DABA /* splash screen.swift */,
+				5515893A290F15B900C8DABA /* ContentView.swift */,
+				55158939290F15B900C8DABA /* MainView.swift */,
+				5515893B290F15B900C8DABA /* MapView.swift */,
+				5515893D290F15B900C8DABA /* MapViewModel.swift */,
+				5515893C290F15B900C8DABA /* Month.swift */,
+				5515893E290F15B900C8DABA /* Place.swift */,
+				55158937290F155D00C8DABA /* Assets.xcassets */,
+				5515894B290F161000C8DABA /* Preview Content */,
 			);
 			path = SolarBoost;
-			sourceTree = "<group>";
-		};
-		5515892F290F151100C8DABA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				55158930290F151100C8DABA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +112,7 @@
 				TargetAttributes = {
 					55158925290F150E00C8DABA = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,8 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55158931290F151100C8DABA /* Preview Assets.xcassets in Resources */,
-				5515892E290F151100C8DABA /* Assets.xcassets in Resources */,
+				5515894C290F161000C8DABA /* Preview Content in Resources */,
+				55158938290F155D00C8DABA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +151,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5515892C290F150E00C8DABA /* ContentView.swift in Sources */,
-				5515892A290F150E00C8DABA /* SolarBoostApp.swift in Sources */,
+				55158942290F15BA00C8DABA /* Month.swift in Sources */,
+				55158948290F15E700C8DABA /* splash screen.swift in Sources */,
+				55158943290F15BA00C8DABA /* MapViewModel.swift in Sources */,
+				5515894A290F160500C8DABA /* WelcomeScreen.swift in Sources */,
+				55158940290F15BA00C8DABA /* ContentView.swift in Sources */,
+				55158944290F15BA00C8DABA /* Place.swift in Sources */,
+				55158941290F15BA00C8DABA /* MapView.swift in Sources */,
+				5515893F290F15BA00C8DABA /* MainView.swift in Sources */,
+				55158947290F15E700C8DABA /* SolarBoostApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,11 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SolarBoost/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codewithaditya.SolarBoost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,11 +316,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SolarBoost/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

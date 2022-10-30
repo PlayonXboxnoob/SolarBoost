@@ -1,26 +1,22 @@
 //
 //  ContentView.swift
-//  SolarBoost
+//  Solar Boost
 //
-//  Created by Pallavi Naravane on 10/30/22.
+//  Created by Pallavi Naravane on 10/29/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+struct ContentView: View{
+    
+    var body: some View{
+        MainView()
     }
+    
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+struct ContentView_Previews: PreviewProvider{
+    static var previews: some View{
         ContentView()
     }
 }

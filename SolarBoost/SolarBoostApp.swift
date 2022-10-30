@@ -1,17 +1,17 @@
 //
-//  SolarBoostApp.swift
-//  SolarBoost
+//  Solar_BoostApp.swift
+//  Solar Boost
 //
-//  Created by Pallavi Naravane on 10/30/22.
+//  Created by Pallavi Naravane on 10/29/22.
 //
 
 import SwiftUI
 
 @main
-struct SolarBoostApp: App {
+struct Solar_BoostApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            splash_screen()
         }
     }
 }
