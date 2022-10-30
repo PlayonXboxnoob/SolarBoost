@@ -65,11 +65,17 @@ struct MainView: View{
                     //Displaying information
                     if showInformation {
                         
+                        Text("Solar Panel Tilt Calculator")
+                            .font(.title)
+                            .padding()
+                        
                         ScrollView{
                             VStack{
-                                Text("Solar Panel Tilt Calculator")
-                                    .font(.title)
-                                    .padding()
+                                
+                                
+                                Image("25")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
                                     
                                 
                                 Text("To calculate the tilt, we need to know the latitude of a place. Latitude is a coordinate that specifies the north–south position of a point on the surface of the Earth. 69 miles is one degree of latitude.")
@@ -82,6 +88,10 @@ struct MainView: View{
                                     .padding()
                                 
                                 Text("Changing the tilt of the solar panels can increase your energy production by upto 40%.")
+                                    .font(.title3)
+                                    .padding()
+                                
+                                Text("The formula for angle in the northern hemisphere is: 1.3793 + latitude * (1.2011 + latitude * (-0.014404 + latitude * 0.000080509)). The formula for the southern hemisphere is: -0.41657 + latitude * (1.4216 + latitude * (0.024051 + latitude * 0.00021828)))")
                                     .font(.title3)
                                     .padding()
                             }
