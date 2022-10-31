@@ -65,35 +65,47 @@ struct MainView: View{
                     //Displaying information
                     if showInformation {
                         
-                        Text("Solar Panel Tilt Calculator")
-                            .font(.title)
-                            .padding()
-                        
-                        ScrollView{
-                            VStack{
-                                
-                                
-                                Image("25")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    
-                                
-                                Text("To calculate the tilt, we need to know the latitude of a place. Latitude is a coordinate that specifies the north–south position of a point on the surface of the Earth. 69 miles is one degree of latitude.")
-                                    .font(.title3)
-                                    .padding()
+                        VStack{
+                            Text("Solar Panel Tilt Calculator")
+                                .font(.title)
+                                .padding()
                             
-                                     
-                                Text("In this app, the user can select their town, and that pulls up the latitude of the place and it calculates the tilt of the solar panels for that month. It also shows the energy output if you choose to use only one tilt setting for all of winter, summer,spring and fall.")
-                                    .font(.title3)
-                                    .padding()
-                                
-                                Text("Changing the tilt of the solar panels can increase your energy production by upto 40%.")
-                                    .font(.title3)
-                                    .padding()
-                                
-                                Text("The formula for angle in the northern hemisphere is: 1.3793 + latitude * (1.2011 + latitude * (-0.014404 + latitude * 0.000080509)). The formula for the southern hemisphere is: -0.41657 + latitude * (1.4216 + latitude * (0.024051 + latitude * 0.00021828)))")
-                                    .font(.title3)
-                                    .padding()
+                            ScrollView{
+                                VStack{
+                                    
+                                    
+                                    Image("25")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                    
+                                    
+                                    Text("To calculate the tilt, we need to know the latitude of a place. Latitude is a coordinate that specifies the north–south position of a point on the surface of the Earth. 69 miles is one degree of latitude.")
+                                        .font(.title3)
+                                        .padding()
+                                    
+                                    
+                                    Text("In this app, the user can select their town, and that pulls up the latitude of the place and it calculates the tilt of the solar panels for that month. It also shows the energy output if you choose to use only one tilt setting for all of winter, summer,spring and fall.")
+                                        .font(.title3)
+                                        .padding()
+                                    
+                                    Text("Changing the tilt of the solar panels can increase your energy production by upto 40%.")
+                                        .font(.title3)
+                                        .padding()
+                                    
+                                    Text("The formula for angle in the northern hemisphere is:")
+                                        .font(.title3)
+                                    
+                                    Text("1.3793 + latitude * (1.2011 + latitude * (-0.014404 + latitude * 0.000080509)). ")
+                                        .font(.title3)
+                                        .padding()
+                                    
+                                    Text("The formula for the southern hemisphere is: ")
+                                        .font(.title3)
+                                    
+                                    Text("-0.41657 + latitude * (1.4216 + latitude * (0.024051 + latitude * 0.00021828)))")
+                                        .font(.title3)
+                                        .padding()
+                                }
                             }
                         }
                         .background(Color.white)

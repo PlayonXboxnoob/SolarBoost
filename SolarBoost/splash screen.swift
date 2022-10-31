@@ -110,7 +110,17 @@ struct splashview2: View {
                             .font(.title3)
                             .padding()
                         
-                        Text("The formula for angle in the northern hemisphere is: 1.3793 + latitude * (1.2011 + latitude * (-0.014404 + latitude * 0.000080509)). The formula for the southern hemisphere is: -0.41657 + latitude * (1.4216 + latitude * (0.024051 + latitude * 0.00021828)))")
+                        Text("The formula for angle in the northern hemisphere is:")
+                            .font(.title3)
+                        
+                        Text("1.3793 + latitude * (1.2011 + latitude * (-0.014404 + latitude * 0.000080509)). ")
+                            .font(.title3)
+                            .padding()
+                        
+                        Text("The formula for the southern hemisphere is: ")
+                            .font(.title3)
+                        
+                        Text("-0.41657 + latitude * (1.4216 + latitude * (0.024051 + latitude * 0.00021828)))")
                             .font(.title3)
                             .padding()
                         
